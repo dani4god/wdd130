@@ -1,6 +1,6 @@
 /* CSS Variables */
 
- :root {
+:root {
     --primary-color: #2E8B57;
     --secondary-color: #4682B4;
     --accent1-color: #FF6347;
@@ -91,7 +91,7 @@ nav a:hover {
     object-fit: cover;
 }
 
-h2 {
+h1 {
     position: absolute;
     top: 30px;
     left: 50%;
@@ -158,7 +158,7 @@ h2 {
     position: relative;
 }
 
-h3::after {
+h2::after {
     content: '';
     display: block;
     width: 80px;
@@ -257,6 +257,13 @@ h3::after {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+.adventure-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
 }
 
 
